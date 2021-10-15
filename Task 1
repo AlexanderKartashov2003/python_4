@@ -1,0 +1,9 @@
+a = int(input("Какая скорость транспортного средства в км/ч"))
+b = int(input("Сколько часов оно двигалось"))
+for i in range (1, b+1):
+    c = a * i 
+    if i == b:
+        print (a * b)
+        break
+    else:
+        print (a * i)
