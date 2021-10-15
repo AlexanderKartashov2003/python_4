@@ -1,0 +1,10 @@
+print("Введите ваше число")
+s = 0
+ak = 0
+while s == 0:
+    a = int(input())
+    if a >= 0:
+       ak += a
+    else:
+        break
+print ("Сумма чисел равна", ak)
