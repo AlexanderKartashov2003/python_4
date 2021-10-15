@@ -1,0 +1,5 @@
+from functools import reduce
+from operator import mul
+a = int(input("Введите ваше число"))
+b = list(range(1, a+1))
+print(reduce(mul,b))
