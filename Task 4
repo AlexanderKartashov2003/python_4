@@ -1,0 +1,9 @@
+number=int(input())
+percent=int(input())
+day=int(input())
+print('День |' ' Популяция')
+print('1', number)
+for a in range(2, day + 1):
+        number = (number * (percent / 100)) + number
+        print(a, number)
+   
